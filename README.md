@@ -212,6 +212,15 @@ docker run -d --name changerawr-tagger --network changerawr-net \
 
 Changerawr auto-detects it via that URL — no admin UI setup needed. If it's unreachable, tag suggestions are just silently unavailable; nothing else is affected. See [Changerawr/tag-ai](https://github.com/Changerawr/tag-ai) for details.
 
+### Easypanel
+
+You can also deploy Changerawr with one click using the official [Easypanel](https://easypanel.io) template:
+
+[![Deploy on Easypanel][easypanel-btn]][easypanel-deploy]
+
+[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
+[easypanel-deploy]: https://easypanel.io/templates/changerawr
+
 ### Manual Deployment
 
 ```bash
